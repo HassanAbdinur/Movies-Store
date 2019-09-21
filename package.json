@@ -2,10 +2,10 @@
   "name": "movie-store",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --hot --mode development",
-    "build": "webpack --mode production"
+    "start": "next webpack-dev-server --open --hot --mode development",
+    "build": "next-build webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +18,13 @@
     "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
-  }
+  },
+  "dependencies": {}
 }
