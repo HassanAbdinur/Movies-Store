@@ -1,0 +1,26 @@
+{
+  "name": "Movies-Store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanAbdinur/Movies-Store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanAbdinur/Movies-Store/issues"
+  },
+  "homepage": "https://github.com/HassanAbdinur/Movies-Store#readme",
+  "devDependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
