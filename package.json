@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/HassanAbdinur/Movies-Store#readme",
   "devDependencies": {
+    "express": "^4.17.1",
     "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

@@ -1,0 +1,1 @@
+export default () => <div>Hey there! Welcome to next.js</div>
