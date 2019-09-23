@@ -74,7 +74,15 @@ const HomePage = () => (
         <Content>
             <div css={mainCls} justifyContent="space-between">
                 <div className="content">
-
+                    <div className="title">{bannerConfig.original_title}</div>
+                    <div className="subtitle">
+                        {`2016 | ${bannerConfig.genres_data.toString().replace(/,/g, ', ')}`}
+                    </div>
+                    <div className="overview">{bannerConfig.overview}</div>
+                    <div className="price">{`$${bannerConfig.price}`}</div>
+                    <div className="action">
+                        <Button>Purchase</Button>
+                    </div>
                 </div>
             </div>
         </Content>
