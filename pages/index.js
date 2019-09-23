@@ -2,7 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from 'antd';
 import { css } from '@emotion/core';
-import { Content, Footer, Header, Container } from '../Components/Layout';
+import { Content } from '../Components/Layout/Content/Content';
+import { Footer } from '../Components/Layout/Footer/Footer';
+import { Header } from '../Components/Layout/Header/Header';
+import { Container } from '../Components/Layout/Container';
 
 const mainCls = css`
     max-width: 1000px;
@@ -55,6 +58,10 @@ const mainCls = css`
     }
     @media (max-width: 992px) {
         padding: 20px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+
     }
 `;
 
