@@ -11,5 +11,8 @@ const RightMenu = ({ mode }) => (
         <Menu.Item key="login">
             <Link href="/login">Login</Link>
         </Menu.Item>
+        <Menu.Item key="cart">
+            <Link href="/cart">Cart</Link>
+        </Menu.Item>
     </Menu>
 );
