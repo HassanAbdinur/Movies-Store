@@ -19,13 +19,13 @@ export default class MyDocument extends Document {
     render() {
         return (
             <html lang="en">
-                <head>
+                <Head>
                     <link rel="stylesheet" href="/_next/static/style.css" />
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                     {/* for emotion-js */}
                     <style dangerouslySetInnerHTML={{ __html:this.props.css }} />
-                </head>
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
