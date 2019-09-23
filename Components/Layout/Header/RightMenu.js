@@ -3,3 +3,10 @@ import { string } from 'prop-types';
 import Link from 'next/link';
 import Menu from 'antd';
 
+const RightMenu = ({ mode }) => (
+    <Menu mode={mode}>
+        <Menu.Item key="search">
+            <Link href="/search">Search</Link>
+        </Menu.Item>
+    </Menu>
+);
