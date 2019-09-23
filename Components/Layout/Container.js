@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import { css } from '@emotion/core';
-import { 
-    node, string, ontOfType, object 
-} from 'prop-types';
+import { node, string, oneOfType, object } from 'prop-types';
 import { Layout } from 'antd';
 const layoutCls = css `
 background: #152530;
@@ -22,7 +20,7 @@ const Container = ({
     </Layout>
 );
 Container.propTypes = {
-    children: ontOfType([node, string]),
+    children: oneOfType([node, string]),
     title: string,
 };
 export default Container;
