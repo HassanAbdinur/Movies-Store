@@ -16,3 +16,12 @@ const RightMenu = ({ mode }) => (
         </Menu.Item>
     </Menu>
 );
+
+RightMenu.defaultProps = {
+    mode: 'horizontal',
+};
+RightMenu.propTypes = {
+    mode: 'string',
+};
+
+export default RightMenu;
