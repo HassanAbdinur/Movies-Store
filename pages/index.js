@@ -93,6 +93,7 @@ const HomePage = () => (
                 </Link>
             </div>
         </Content>
+        <Footer />
     </Container>
 );
 
