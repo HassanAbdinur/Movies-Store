@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import { css } from '@emotion/core';
 import { node, string, ontOfType, object } from 'prop-types';
-import { layout, Layout } from 'antd';
+import { Layout } from 'antd';
 const layoutCls = css `
 background: #152530;
 color: #fff;
