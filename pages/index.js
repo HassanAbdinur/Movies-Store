@@ -61,7 +61,18 @@ const mainCls = css`
     }
     @media (max-width: 768px) {
         flex-direction: column-reverse;
-
+        padding: 20px;
+        margin-top: 0;
+        img {
+            width: 100%;
+            heigth: auto;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .title {
+            font-size: 60px;
+        }
     }
 `;
 
