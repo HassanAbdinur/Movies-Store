@@ -10,4 +10,15 @@ const mainCls = css`
     flex-direction: row;
     margin: 0 auto;
     margin-top: 50px;
+    color: #fff;
+    .title {
+        color: #ffffff;
+        font-size: 85px;
+        font-weight: bold;
+        max-width: 480px;
+        line-height: 1;
+    }
+    .subtitle {
+        
+    }
 `
