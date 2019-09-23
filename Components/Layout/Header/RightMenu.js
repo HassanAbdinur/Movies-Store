@@ -21,7 +21,7 @@ RightMenu.defaultProps = {
     mode: 'horizontal',
 };
 RightMenu.propTypes = {
-    mode: 'string',
+    mode: string,
 };
 
 export default RightMenu;
