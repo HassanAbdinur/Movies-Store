@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from 'antd';
 import { css } from '@emotion/core';
-import { Content } from '../Components/Layout/Content/Content';
-import { Footer } from '../Components/Layout/Footer/Footer';
+import { Content } from '../Components/Layout/Content';
+import { Footer } from '../Components/Layout/Footer';
 import { Header } from '../Components/Layout/Header/Header';
 import { Container } from '../Components/Layout/Container';
 
