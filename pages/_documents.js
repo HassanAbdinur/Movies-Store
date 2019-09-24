@@ -1,6 +1,7 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { extractCritical } from 'emotion-server';
+
 export default class MyDocument extends Document {
     static getInitialProps({ renderPage }) {
         // for emotion-js
@@ -24,7 +25,7 @@ export default class MyDocument extends Document {
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                     {/* for emotion-js */}
-                    <style dangerouslySetInnerHTML={{ __html:this.props.css }} />
+                    <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
                 </Head>
                 <body>
                     <Main />
